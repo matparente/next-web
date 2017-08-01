@@ -1,0 +1,53 @@
+.logo img{
+	max-width: 40%;
+}
+
+body {
+	margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-default {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding: 5px 0 0 0; */
+}
+
+/*.navbar-brand>img {
+    max-width: 40%;
+}*/
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+/* Carousel */
+
+.carousel-caption h3 {
+    font-size: 90px;
+}
+
+/* Títlos de secciones */
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.red {
+    background: red;
+}
+
+.servicio01 {
+    background: #fdbc3c;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px 20px;
+}

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:900");
+/* Coolors Exported Palette - coolors.co/efec4a-0b4f6c-1b998b-336699-001011 */
+/* HSL */
+/* RGB */
+/* --- VARIABLES --- */
+/* Tipograf├¡a */
+/* Colores */
+/*
+color1: amarillo
+color2: petr├│leo
+color3: verde
+color4: azul
+color5: negro gris├íceo
+*/
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #001011; }
+
+.logo img {
+  max-width: 40%; }
+
+/* NavBar */
+.navbar-default {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  position: absolute;
+  z-index: 10;
+  width: 100%; }
+
+.navbar-brand {
+  padding: 5px 0 0 0; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+/* Carousel */
+.carousel-caption h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 90px;
+  text-shadow: 2px 2px 2px black;
+  color: #efec4a; }
+
+/* T├¡tulos de secciones */
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase; }
+
+/* Secciones ALL */
+section {
+  padding-bottom: 30px; }
+
+/* Secci├│n SERVICIOS */
+.servicios {
+  font-size: 13px;
+  line-height: 22px; }
+  .servicios h4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: -1px; }
+  .servicios article {
+    flex-direction: column;
+    flex: 1;
+    padding: 10px 20px; }
+  .servicios .circulo {
+    background: #336699;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    height: 160px;
+    width: 160px; }
+    .servicios .circulo span {
+      font-size: 80px;
+      color: #fff; }
+
+/* Secci├│n SOBRE NOS */
+.sobrenos {
+  font-size: 13px;
+  line-height: 22px; }
+  .sobrenos ul {
+    text-align: left;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 15px 30px; }
+    .sobrenos ul li {
+      padding: 5px 0 5px 0; }
+  .sobrenos span {
+    font-size: 30px;
+    color: #efec4a; }
+  .sobrenos img {
+    padding: 0; }
+  .sobrenos .container {
+    margin: auto; }
+  .sobrenos .articulo01 {
+    padding: 0px;
+    margin-top: 30px;
+    color: white;
+    background: #0b4f6c; }
+  .sobrenos .articulo02 {
+    padding: 0px;
+    margin-top: 30px;
+    color: white;
+    background: #336699; }
+
+/* Secci├│n METODOLOGIA */
+.metodologia {
+  background-image: url("../img/bg-metodologia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+  .metodologia ul {
+    text-align: left;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 15px 30px; }
+    .metodologia ul li {
+      padding: 5px 0 5px 0; }
+  .metodologia span {
+    font-size: 20px;
+    color: #efec4a;
+    padding-right: 5px; }
+  .metodologia .container {
+    margin: auto; }
+
+/* Secci├│n CONTATO */
+.contato {
+  background-image: url("../img/bg-contato.jpg");
+  background-repeat: no-repeat; }
+  .contato ul {
+    text-align: left;
+    font-size: 15px;
+    list-style-type: none; }
+    .contato ul li {
+      padding: 5px 0 5px 0; }
+  .contato span {
+    font-size: 20px;
+    color: #1b998b;
+    padding-right: 5px; }
+  .contato .container {
+    margin: auto; }
+  .contato h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px; }
+
+/* FORMULARIO */
+form .form-control {
+  border: 2px solid #1b998b; }
+form .btn-default {
+  color: white;
+  font-weight: 700;
+  background-color: #1b998b;
+  border: none;
+  margin-top: 15px; }
+  form .btn-default:hover {
+    color: white;
+    font-weight: 700;
+    background: #336699; }
+
+/*# sourceMappingURL=style.css.map */
