@@ -1,23 +1,24 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:900");
-/* Coolors Exported Palette - coolors.co/efec4a-0b4f6c-1b998b-336699-001011 */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/* Coolors Exported Palette - coolors.co/ff5714-ffb800-ffff19-4392f1-131314 */
 /* HSL */
 /* RGB */
 /* --- VARIABLES --- */
 /* Tipograf├¡a */
 /* Colores */
 /*
-color1: amarillo
-color2: petr├│leo
-color3: verde
-color4: azul
-color5: negro gris├íceo
+color1: naranja
+color2: durazno
+color3: amarillo
+color4: celeste
+color5: gris oscuro
 */
 body {
   margin: 0 auto;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  color: #001011; }
+  color: #131314; }
 
 .logo img {
   max-width: 40%; }
@@ -41,7 +42,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 90px;
   text-shadow: 2px 2px 2px black;
-  color: #efec4a; }
+  color: white; }
 
 /* T├¡tulos de secciones */
 h2 {
@@ -69,7 +70,7 @@ section {
     flex: 1;
     padding: 10px 20px; }
   .servicios .circulo {
-    background: #336699;
+    background: #ffb800;
     border-radius: 50%;
     margin: 0 auto;
     padding: 40px;
@@ -91,8 +92,8 @@ section {
     .sobrenos ul li {
       padding: 5px 0 5px 0; }
   .sobrenos span {
-    font-size: 30px;
-    color: #efec4a; }
+    font-size: 24px;
+    color: #ffff19; }
   .sobrenos img {
     padding: 0; }
   .sobrenos .container {
@@ -101,12 +102,12 @@ section {
     padding: 0px;
     margin-top: 30px;
     color: white;
-    background: #0b4f6c; }
+    background: #ff5714; }
   .sobrenos .articulo02 {
     padding: 0px;
     margin-top: 30px;
     color: white;
-    background: #336699; }
+    background: #4392f1; }
 
 /* Secci├│n METODOLOGIA */
 .metodologia {
@@ -120,10 +121,11 @@ section {
     list-style-type: none;
     padding: 15px 30px; }
     .metodologia ul li {
-      padding: 5px 0 5px 0; }
+      padding: 5px 0 5px 0;
+      line-height: 24px; }
   .metodologia span {
     font-size: 20px;
-    color: #efec4a;
+    color: #ffff19;
     padding-right: 5px; }
   .metodologia .container {
     margin: auto; }
@@ -131,16 +133,16 @@ section {
 /* Secci├│n CONTATO */
 .contato {
   background-image: url("../img/bg-contato.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
   .contato ul {
     text-align: left;
-    font-size: 15px;
-    list-style-type: none; }
+    font-size: 15px; }
     .contato ul li {
       padding: 5px 0 5px 0; }
   .contato span {
     font-size: 20px;
-    color: #1b998b;
+    color: #4392f1;
     padding-right: 5px; }
   .contato .container {
     margin: auto; }
@@ -150,16 +152,16 @@ section {
 
 /* FORMULARIO */
 form .form-control {
-  border: 2px solid #1b998b; }
+  border: 2px solid #ffb800; }
 form .btn-default {
   color: white;
   font-weight: 700;
-  background-color: #1b998b;
+  background-color: #4392f1;
   border: none;
   margin-top: 15px; }
   form .btn-default:hover {
     color: white;
     font-weight: 700;
-    background: #336699; }
+    background: #131314; }
 
 /*# sourceMappingURL=style.css.map */
