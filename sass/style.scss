@@ -12,18 +12,18 @@ $fontregular: 'Open Sans', sans-serif;
 /* Colores */
 
 /*
-color1: naranja
-color2: durazno
-color3: amarillo
-color4: celeste
-color5: gris oscuro
+color1: petroleo
+color2: azul
+color3: celeste
+color4: fucsia
+color5: bordo
 */
 
 body {
 	margin: 0 auto;
     text-align: center;
     font-family: $fontregular;
-    color: $color5;
+    color: $color1;
 }
 
 
@@ -34,20 +34,36 @@ body {
 /* NavBar */
 
 .navbar-default {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     border: none;
     position: absolute;
     z-index: 10;
     width: 100%;
+    padding: 5px 0
 }
 
 .navbar-brand {
     padding: 5px 0 0 0;
 }
 
+/* Botones */
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+    text-transform:	uppercase;
+    font-weight: 700;
+    transition: 0.5s;
+
+    &:hover {
+		color: $color4;
+		}
+	/*&:visited {
+		color: #fff;
+	}*/	
+}
+
+.icono {
+	font-size: 18px;
 }
 
 /* Carousel */
@@ -94,8 +110,9 @@ section {
     h4 {
     	font:{
     	size: 28px;
-    	weight: 700;
-    }
+    	weight: 700;    	
+    	}
+
     margin-top: 20px;
     letter-spacing: -1px;
 	}
@@ -107,7 +124,7 @@ section {
 	}
 
     .circulo {
-    	background: $color2;
+    	background: $color3;
 	    border-radius: 50%;
 	    margin: 0 auto;
 	    padding: 40px;
@@ -120,6 +137,23 @@ section {
 	    }
     }
 }
+
+/* MODAL */
+    
+.modal-header{
+	h5 {
+		font:{
+		size: 24px;
+		weight: 700;
+		}
+		color: $color3;   		
+	}    	
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $color3;
+    }
 
 /* Sección SOBRE NOS */
 
@@ -139,8 +173,7 @@ section {
 	}
 
 	span {
-		font-size: 24px;
-		color: $color3;
+		font-size: 24px;		
 	}
 
 	img {
@@ -159,12 +192,20 @@ section {
 
 	.articulo01 {
 		@include articulo;
-		background: $color1;
+		background: $color5;
+
+		span {
+			color: $color4;
+		}
 	}
 
 	.articulo02 {
 		@include articulo;
-		background: $color4;
+		background: $color2;
+
+		span {
+			color: $color3;
+		}
 	}
 
 }
@@ -192,7 +233,7 @@ section {
 	
 	span {
 		font-size: 20px;
-		color: $color3;
+		color: $color4;
 		padding-right: 5px;
 	}
 
@@ -242,7 +283,7 @@ section {
 form {
 
 	.form-control {
-	border: 2px solid $color2;
+	border: 2px solid $color4;
 	}
 
 	.btn-default {
@@ -260,4 +301,22 @@ form {
 	}
 
 }
+
+/* Footer */
+
+.dark {
+	background: $color1;
+	color: white;
+	border: none;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    padding: 10px 0;
+
+    img {
+    	padding: 0 10px 3px 0;
+    }
+}
+
+  
 
